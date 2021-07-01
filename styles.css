@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    margin-right: 2rem;
+}
+header{
+    background-color: rgb(225, 227, 235);
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    align-items: center;
+    height: 100%;
+
+}
+nav li{
+    list-style: none;
+    margin-left: 2rem;
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+}
+nav a:hover{
+    color: rgb(26, 184, 176);
+}
+img{
+    max-width: 100%;
+    height: 100%;   
+}
+footer{
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+    background-color: rgb(7, 7, 182);
+    text-align: center;
+}
+aside{
+    height:20%;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 5% 20%;
+    height: 220%;
+}
+.title{
+    text-align: center;
+}
+.nav-title{
+    color: rgb(34, 136, 127);
+    margin-bottom: 0;
+}
+.nav-subtitle{
+    color: rgb(65, 140, 163);
+    margin-top: 0;
+}
+
+.article-current{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+.article-current-info{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.75rem;
+    color: rgb(83, 81, 79);
+    font-weight:600;
+}
+.article-current-readmore{
+    color: rgb(11, 183, 214);
+    display: flex;
+    margin: 0 auto 0 0;
+
+}
+.article-current-readmore:hover{
+    border-bottom: 1px solid black;
+}
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 20%;
+    height: 20rem;
+}
+.article-recent{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+   
+    margin-bottom: 8rem;
+}
+.article-recent-secondary{
+    margin-right: 2rem;
+    width: 30%;
+    height:100%;
+}
+.article-recent-primary{
+    width: 70%;
+    margin-top: 0;
+}
+.article-recent-title{
+    margin-top: 0;
+}
+.article-recent-readmore{
+    color: rgb(11, 183, 214);
+    margin: 0 auto 0 0;
+}
+.article-recent-readmore:hover{
+    border-bottom: 1px solid black;
+}
+.sidebar{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+}
+.sidebar-box{
+    height: 90%;
+    margin-bottom: 10rem ;
+}
+.footer-heading{
+    color: rgb(225, 227, 235);
+}
+.copyright{
+    color: rgb(225,227,235);
+}
